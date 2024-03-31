@@ -15,7 +15,7 @@ Upvote or downvote timestamps to promote the most valuable ones
 Purpose
 The purpose of this application is to improve the user experience of watching YouTube videos by allowing viewers to quickly navigate to specific points of interest within a video. This can be helpful for long videos, educational content, or videos with specific topics covered at different points.
 
-Technologies (placeholder)
+<h2>Technologies (placeholder)</h2>
 This section will list the programming languages and frameworks used to develop the application. For example:
 Programming language: Kotlin (Android) or Swift (iOS)
 Framework: (e.g. React Native for cross-platform development)
@@ -23,9 +23,9 @@ You can find more information on these technologies online.
 Getting Started (placeholder)
 This section will provide instructions on how to set up the project for development.
 You'll likely need to have the appropriate development environment set up for your chosen technologies (e.g. Android Studio or Xcode).
-Contributing
+<h2>Contributing</h2>
 We welcome contributions to this project! If you'd like to get involved, please refer to the contributing guidelines (to be added in a separate CONTRIBUTING.md file).
 
-License
+<h2>License</h2>
 This project is licensed under the (to be determined - choose an open source license).
 
