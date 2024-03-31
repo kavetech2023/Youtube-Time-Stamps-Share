@@ -3,10 +3,10 @@
 
 This is a project to develop a mobile application for sharing timestamps within YouTube videos.
 
-Description
+<h2>Description</h2>
 This application allows users to:
 
-Search for YouTube videos
+<h2>Search for YouTube videos</h2>
 View timestamps submitted by other users for specific points of interest within a video
 Submit their own timestamps for videos
 Potentially (add features as needed):
