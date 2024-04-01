@@ -20,9 +20,11 @@ This section will list the programming languages and frameworks used to develop 
 Programming language: Kotlin (Android) or Swift (iOS)
 Framework: (e.g. React Native for cross-platform development)
 You can find more information on these technologies online.
-Getting Started (placeholder)
+
+<h2>Getting Started (placeholder)</h2>
 This section will provide instructions on how to set up the project for development.
 You'll likely need to have the appropriate development environment set up for your chosen technologies (e.g. Android Studio or Xcode).
+
 <h2>Contributing</h2>
 We welcome contributions to this project! If you'd like to get involved, please refer to the contributing guidelines (to be added in a separate CONTRIBUTING.md file).
 
