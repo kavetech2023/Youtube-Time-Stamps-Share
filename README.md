@@ -26,7 +26,7 @@ This section will provide instructions on how to set up the project for developm
 You'll likely need to have the appropriate development environment set up for your chosen technologies (e.g. Android Studio or Xcode).
 
 <h2>Author</h2>
-Kevin Kavete | <a href="@kavetech@gmail.com">Kavetech@gmail.com</a> | <a href="https://github.com/kavetech2023/">Github</a>
+Name: Kevin Kavete | Email: <a href="@kavetech@gmail.com">Kavetech@gmail.com</a> | Github: <a href="https://github.com/kavetech2023/">Github</a>
 
 <h2>Contributing</h2>
 We welcome contributions to this project! If you'd like to get involved, please refer to the contributing guidelines (to be added in a separate CONTRIBUTING.md file).
