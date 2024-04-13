@@ -19,6 +19,11 @@ const sendMessageToContentScript = (tabId, url) => {
       type: "NEW",
       videoId: urlParameters.get("v"),
     }, function(response) {
+
+      /*
+      Checks for any errors using chrome.runtime.lastError 
+      and logs an error message if there is any.
+      */
       if (chrome.runtime.lastError) {
         console.log(`Error: ${chrome.runtime.lastError.message}`);
       } else {
