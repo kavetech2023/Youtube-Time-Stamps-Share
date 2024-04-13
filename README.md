@@ -30,7 +30,13 @@ You can find more information on these technologies online.
 This section will provide instructions on how to set up the project for development.
 You'll likely need to have the appropriate development environment set up for your chosen technologies (e.g. Android Studio or Xcode).
 
-<h2>Author</h2>
+<h2>Installation:</h2>
+
+<h2>Usage:</h2>
+
+<h2>Related Projects</h2>
+
+<h2>Authors</h2>
 Name: Kevin Kavete | Email: <a href="@kavetech@gmail.com">Kavetech@gmail.com</a> | Github: <a href="https://github.com/kavetech2023/">Github</a>
 
 <h2>Contributing</h2>
