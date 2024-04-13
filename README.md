@@ -3,6 +3,11 @@
 
 This is a project to develop a mobile application for sharing timestamps within YouTube videos.
 
+<h2>Introduction</h2>
+<b></b>Deployed Site:</b>
+
+<b>Final blog Article:</b>
+
 <h2>Description</h2>
 This application allows users to:
 
