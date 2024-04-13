@@ -3,7 +3,12 @@
     let currentVideo = "";
     let currentVideoBookmarks = [];
     
-    //
+    /*
+    This listener waits for messages from the extension's background script. 
+    When a message is received, it triggers a function to handle the message.
+    Inside the message listener, the code checks the type of the received message. 
+    If the type is "NEW", it updates the currentVideo variable with the videoId from the message and calls the newVideoLoaded() function
+    */
     chrome.runtime.onMessage.addListener((obj, sender, response) => {
         const { type, value, videoId } = obj;
 
@@ -13,6 +18,11 @@
         }
     });
 
+    /*
+    This function is responsible for adding a bookmark button to the YouTube video player interface if it doesn't already exist. 
+    It checks if a bookmark button element exists, and if not, it creates a new button element, sets its properties (such as src, className, and title), 
+    and appends it to the left controls of the YouTube video player. 
+    */
     const newVideoLoaded = () => {
         const bookmarkBtnExists = document.getElementsByClassName("bookmark-btn")[0];
         console.log(bookmarkBtnExists);
@@ -32,6 +42,10 @@
         }
     }
 
+    /*
+    This function is called when the bookmark button is clicked. 
+    It retrieves the current playback time of the YouTube video and creates a new bookmark object containing the time and a description.
+    */
     const addNewBookmarkEventHandler = () => {
         const currentTime = youtubePlayer.currentTime;
         const newBookmark = {
@@ -48,6 +62,9 @@
     newVideoLoaded();
 })();
 
+/*
+This function takes a time value in seconds and converts it to a formatted time string in the format "hh:mm:ss".
+*/
 const getTime = t => {
     var date = new Date(0);
     date.setSeconds(1);
