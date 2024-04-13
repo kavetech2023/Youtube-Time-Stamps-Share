@@ -13,7 +13,7 @@ const sendMessageToContentScript = (tabId, url) => {
     After extracting the video ID, the function sends a message to the content script of the active tab using chrome.tabs.sendMessage(). 
     The message contains an object with two properties:
         type: Set to "NEW" to indicate that a new video is being watched.
-        videoId: The extracted video ID from the URL.
+        videoId: The extracted video ID from the URL at hand at the current moment.
     */
     chrome.tabs.sendMessage(tabId, {
       type: "NEW",
