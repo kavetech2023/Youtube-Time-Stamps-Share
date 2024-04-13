@@ -7,7 +7,7 @@
     This listener waits for messages from the extension's background script. 
     When a message is received, it triggers a function to handle the message.
     Inside the message listener, the code checks the type of the received message. 
-    If the type is "NEW", it updates the currentVideo variable with the videoId from the message and calls the newVideoLoaded() function
+    If the type is "NEW", it updates the currentVideo variable with the videoId from the message and calls the newVideoLoaded() function.
     */
     chrome.runtime.onMessage.addListener((obj, sender, response) => {
         const { type, value, videoId } = obj;
