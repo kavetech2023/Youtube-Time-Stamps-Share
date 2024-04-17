@@ -4,7 +4,7 @@
 This is a project to develop a mobile application for sharing timestamps within YouTube videos.
 
 <h2>Introduction</h2>
-<b></b>Deployed Site:</b>
+<b></b>Deployed Site:</b>https://www.kavete.me
 
 <b>Final blog Article:</b>
 https://www.linkedin.com/posts/kevinkavete_activity-7183824245385269248-g7Uq?utm_source=combined_share_message&utm_medium=member_desktop
